@@ -1,0 +1,9 @@
+import java.util.*;
+public class Carrot{
+    public static void main(String args[]){
+        Scanner nuts=new Scanner(System.in);
+        int ign=nuts.nextInt();
+        int ans=nuts.nextInt();
+        System.out.println(ans);
+    }
+}
