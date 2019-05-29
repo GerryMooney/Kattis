@@ -1,0 +1,75 @@
+import java.util.*;
+public class Bijele{
+    public static void main(String args[]){
+        Scanner nuts=new Scanner(System.in);
+        int k=nuts.nextInt();
+        int q=nuts.nextInt();
+        int r=nuts.nextInt();
+        int b=nuts.nextInt();
+        int n=nuts.nextInt();
+        int p=nuts.nextInt();
+        if(k<1){//king
+            System.out.print("1 ");
+        }
+            else if(k>1){
+            k=1-k;
+            System.out.print(k+" ");
+        }
+                else{
+                     System.out.print("0 ");
+        }
+         if(q<1){//queen
+            System.out.print("1 ");
+            }
+            else if(q>1){
+                q=1-q;
+                System.out.print(q+" ");
+            }
+                else{
+                    System.out.print("0 ");
+                }
+         if(r<2){//rook
+             r=2-r;
+            System.out.print(r+" ");
+        }
+            else if(r>2){
+                r=2-r;
+                System.out.print(r+" ");
+            }
+            else{
+               System.out.print("0 ");
+        }
+        if(b<2){//rook
+             b=2-b;
+            System.out.print(b+" ");
+        }
+            else if(b>2){
+                b=2-b;
+                System.out.print(b+" ");
+            }
+            else{
+               System.out.print("0 ");
+        }
+        if(n<2){//rook
+             n=2-n;
+            System.out.print(n+" ");
+        }
+            else if(n>2){
+                n=2-n;
+                System.out.print(n+" ");
+            }
+            else{
+               System.out.print("0 ");
+        }
+        if(p<8){//rook
+             p=8-p;
+            System.out.print(p+" ");
+        }
+            else if(p>8){
+                p=8-p;
+                System.out.print(p+" ");
+            }
+            else{
+               System.out.print("0 ");
+        }
+    }}
