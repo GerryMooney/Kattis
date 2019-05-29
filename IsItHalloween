@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class kattis{
+    public static void main(String args[]){
+        Scanner nuts=new Scanner(System.in);
+        
+        String month=nuts.next();
+        int date=nuts.nextInt();
+        nuts.close();
+        if(month.equals("OCT") && date==31 || month.equals("DEC") && date==25)
+        {
+            System.out.println("yup");
+        }
+            else
+            {
+                System.out.println("nope");
+            }
+}}
