@@ -1,0 +1,21 @@
+import java.util.*;
+public class ACM{
+  public static void main(String[] args) {
+    Scanner nuts = new Scanner(System.in);
+    int t;
+    int[] sc= new int[26];
+    int s = 0, n = 0;
+    while((t = nuts.nextInt()) != -1){
+      char c = nuts.next().toCharArray()[0];
+      boolean FLAG = nuts.next().equals("right") ? true : false;
+
+      if(FLAG){
+        s += t + sc[c - 'A'];
+        n++;
+      } else {
+        sc[c - 'A'] += 20;
+      }
+    }
+    System.out.printf("%d %d\n", n, s);
+  }
+}
