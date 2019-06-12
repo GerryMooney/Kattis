@@ -1,0 +1,11 @@
+import java.util.*;
+public class faktor {
+    public static void main(String[] args) {
+        Scanner nuts = new Scanner(System.in);
+        double a = nuts.nextInt();
+        double i = nuts.nextInt();
+        i--;
+        
+        System.out.println((int)(a*i+1));
+    }
+}
