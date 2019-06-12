@@ -1,0 +1,14 @@
+import java.util.*;
+public class Oddities{
+    public static void main(String args[]){
+        Scanner nuts=new Scanner(System.in);
+        int a=nuts.nextInt();
+        int[] ar=new int[a];
+        for(int i=0;i<a;i++){
+            ar[i]=nuts.nextInt();
+            if(ar[i]%2==0){
+                System.out.println(ar[i]+" is even");
+            }
+            else{
+                System.out.println(ar[i]+" is odd");
+            }}}}
